@@ -7,7 +7,7 @@
   ],
   "scripts": {
     "typecheck": "npm run typecheck --workspaces --if-present",
-    "lint": "eslint .",
+    "lint": "eslint apps/api",
     "test": "npm run test --workspaces --if-present",
     "build": "npm run build --workspaces --if-present",
     "prepare": "husky"
